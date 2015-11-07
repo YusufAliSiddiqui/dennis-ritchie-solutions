@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+main(){
+	char c;
+	while((c=getchar()) != EOF){
+		if(c!='\n'){
+			putchar(c);
+		}
+		else {
+			printf("\n");
+		}
+	}
+}
